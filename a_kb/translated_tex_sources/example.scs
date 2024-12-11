@@ -1,0 +1,106 @@
+test_fragment = [*
+.system_element_0
+=> nrel_inclusion: [*
+
+	.system_element_1
+	=> nrel_inclusion: [*
+
+		.system_element_2
+		=> .system_element_3: 
+			.system_element_4;
+			.system_element_5;
+		=> nrel_explanation: [<p>Особенности правового регулирования вопросов нормотворческой деятельности могут устанавливаться Президентом Республики Беларусь</p>]
+		(*
+			<- lang_ru;;
+			=> nrel_format: format_html;;
+		*);;
+
+		.system_element_9
+		=> .system_element_3: .system_element_10;;
+
+		.system_element_11
+		=> nrel_idtf: [<p>скоординированность нормотворческой деятельности в системе республиканских органов государственного управления, подчиненных Совету Министров Республики Беларусь</p>]
+		(*
+			<- lang_ru;;
+			=> nrel_format: format_html;;
+		*);
+		=> .system_element_3: .system_element_12;;
+	*];;
+
+	.system_element_13
+	=> nrel_inclusion: [*
+		=> nrel_explanation: [<p>(можно оформить в виде логического правила) Изменение законодательного акта допускается, как правило, не чаще одного раза в два года, а изменение иного нормативного правового акта - не чаще одного раза в год, за исключением случаев, когда внесение изменений необходимо для оперативного регулирования наиболее важных вопросов, а также на основании требований нормативных правовых актов большей юридической силы.</p>]
+		(*
+			<- lang_ru;;
+			=> nrel_format: format_html;;
+		*);;
+	*];;
+
+	.system_element_14
+	=> nrel_inclusion: [*
+
+		.system_element_15
+		=> nrel_explanation: [<p>Нормотворческий процесс - процедура осуществления нормотворческой деятельности.</p>]
+		(*
+			<- lang_ru;;
+			=> nrel_format: format_html;;
+		*);
+		=> .system_element_16: <
+			.system_element_17;
+			.system_element_18;
+			.system_element_19
+			(*
+				=> .system_element_20: {
+					.system_element_21;
+					.system_element_22
+				};;
+			*);
+			.system_element_23
+			(*
+				=> nrel_idtf: [<p>издание нормативного правового акта</p>]
+				(*
+					<- lang_ru;;
+					=> nrel_format: format_html;;
+				*);;
+			*);
+			.system_element_24;
+			.system_element_43;
+			.system_element_44
+		>;;
+
+		.system_element_45
+		=> nrel_explanation: [<p>Нормотворческая деятельность - государственно-властная деятельность по планированию, реализации нормотворческой инициативы, подготовке, проведению экспертиз, принятию (изданию), официальному опубликованию, изменению, официальному толкованию, приостановлению, возобновлению, продлению и прекращению действия нормативных правовых актов.</p>]
+		(*
+			<- lang_ru;;
+			=> nrel_format: format_html;;
+		*);;
+
+		.system_element_46
+		=> nrel_explanation: [<p>Законотворческий - это процесс процедура осуществления законотворческой деятельности.</p>]
+		(*
+			<- lang_ru;;
+			=> nrel_format: format_html;;
+		*);
+		=> .system_element_16: <
+			.system_element_47;
+			.system_element_48
+			(*
+				=> nrel_inclusion: .system_element_49;;
+				=> nrel_inclusion: .system_element_22;;
+			*);
+			.system_element_50;
+			.system_element_51;
+			.system_element_52;
+			.system_element_53;
+			.system_element_54
+		>;;
+
+		.system_element_55
+		=> nrel_explanation: [<p>Законотворческая деятельность - государственно-властная деятельность по планированию, реализации права законодательной инициативы, подготовке, проведению экспертиз, принятию, официальному опубликованию, изменению, официальному толкованию, приостановлению, возобновлению, продлению и прекращению действия законов.</p>]
+		(*
+			<- lang_ru;;
+			=> nrel_format: format_html;;
+		*);;
+	*];;
+*];;
+*];;
